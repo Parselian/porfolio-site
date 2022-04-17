@@ -7,15 +7,6 @@ html, body {
 }
 * {
   box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif, -apple-system;
-  line-height: 1.4;
-  color: $main-text-color;
-  background: $bg-color;
   &::-webkit-scrollbar {
     background-color: lighten($bg-color, 10%);
     box-shadow: $shadow;
@@ -31,6 +22,16 @@ body {
     border-radius: 5px;
     cursor: pointer;
   }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif, -apple-system;
+  line-height: 1.4;
+  color: $main-text-color;
+  background: $bg-color;
+
 }
 
 section {

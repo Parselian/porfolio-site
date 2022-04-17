@@ -116,26 +116,30 @@
 
     &-text {
       position: relative;
-      margin-bottom: 40px;
+      height: 100%;
+      max-height: 130px;
+      overflow-y: auto;
       width: 75%;
       font-weight: 300;
       opacity: 0.5;
 
-      &:after {
+    }
+
+    &-button {
+      position: relative;
+      margin-top: 40px;
+      display: block;
+      width: fit-content;
+      &:before {
         position: absolute;
         content: '';
         left: 0;
-        bottom: -17px;
-        width: 70%;
+        top: -25px;
+        width: 270%;
         height: 1px;
         background-color: $main-text-color;
         opacity: 0.2;
       }
-    }
-
-    &-button {
-      display: block;
-      width: fit-content;
     }
   }
 }

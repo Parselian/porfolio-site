@@ -393,6 +393,7 @@
         width: 100%;
       }
 
+      padding: 25px 20px 20px 20px;
       text-align: center;
       &-title {
         position: relative;
@@ -400,16 +401,18 @@
       }
       &-text {
         width: 100%;
-        &:after {
-          left: 50%;
-          transform: translateX(-50%);
-        }
+        max-height: 100%;
       }
       &-button {
         position: relative;
         z-index: 1;
         margin-left: auto;
         margin-right: auto;
+        &:before {
+          max-width: 280px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
       }
     }
   }
@@ -780,6 +783,15 @@
       }
 
       width: 220px;
+    }
+  }
+  .experience {
+    &__slide {
+      &-button {
+        &:before {
+          max-width: 240px;
+        }
+      }
     }
   }
 }
