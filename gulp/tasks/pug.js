@@ -4,6 +4,9 @@ module.exports = () => {
       .pipe($.gp.pug({
         pretty: true /* disabling markup minification */
       }))
+      .pipe($.gp.rename({
+        extname: '.php'
+      }))
       .pipe($.gulp.dest('build')) /* return compiled .html files */
       .on('end', $.browserSync.reload);
   });

@@ -8,11 +8,12 @@
     <link href="https://unpkg.com/swiper@8/swiper-bundle.min.css" rel="stylesheet">
     <link href="./assets/css/reset.css" rel="stylesheet">
     <link href="./assets/css/main.css" rel="stylesheet">
+    <title>Vyacheslav Vozhdaev</title>
   </head>
   <body>
     <div class="burger-menu">
       <div class="burger-menu__wrap">
-        <nav class="burger-menu__links"><a href="#about_me">About me</a><a href="#portfolio">Portfolio</a><a href="#advantages">Why me</a><a href="#process">Process</a><a href="#contacts">Contacts</a>
+        <nav class="burger-menu__links"><a href="#portfolio">Portfolio</a><a href="#advantages">Why me</a><a href="#process">Process</a><a href="#contacts">Contacts</a>
         </nav><a class="burger-menu__button button button_transparent button_transparent-accent" href="#">Check CV</a>
       </div>
     </div>
@@ -21,7 +22,7 @@
         <svg class="logo">
           <use xlink:href="./assets/images/svg/symbol/sprite.svg#logo"></use>
         </svg>
-        <nav class="header__menu nav-menu"><a href="#about_me">About me</a><a href="#portfolio">Portfolio</a><a href="#advantages">Why me</a><a href="#process">Process</a><a href="#contacts">Contacts</a>
+        <nav class="header__menu nav-menu"><a href="#portfolio">Portfolio</a><a href="#advantages">Why me</a><a href="#process">Process</a><a href="#contacts">Contacts</a>
         </nav>
         <div class="header__col"><a class="header__link button button_transparent button_transparent-accent" href="#">Check CV</a>
           <div class="burger-btn">
@@ -234,7 +235,7 @@
                 <source srcset="./assets/images/webp/experience-img_1.webp" type="image/webp"/><img src="./assets/images/experience-img_1.png" alt="photo"/>
               </picture>
               <div class="experience__slide-subtitle">Company name</div>
-              <h3 class="experience__slide-title">Tried to earn money on freelance</h3>
+              <h3 class="experience__slide-title">Freelance</h3>
               <p class="experience__slide-text">
                 There was start my way as a frontend developer. After some frontend courses I decided to
                 continue work as a freelancer: try to find orders, chat with clients and colleagues a lot etc.
@@ -244,7 +245,7 @@
                 because all my attention was directed to getting a middle-specialty degree.
                 </br></br>
                 After college i wanted to continue my study at university, but fail my exams.... So, after
-                this failrue i decided to find a real job because i want to get new experience such as:
+                this failure i decided to find a real job because i want to get new experience such as:
                 teamwork, solve unusual tasks etc.
                 </br></br>
                 And the first place where i went to work was Apple Service Center.
@@ -255,12 +256,18 @@
                 <source srcset="./assets/images/webp/experience-img_1.webp" type="image/webp"/><img src="./assets/images/experience-img_1.png" alt="photo"/>
               </picture>
               <div class="experience__slide-subtitle">Company name</div>
-              <h3 class="experience__slide-title"> senter</h3>
+              <h3 class="experience__slide-title">Apple Service Center</h3>
               <p class="experience__slide-text">
-                I worked as a junior Frontend developer. My work included in creating new websites for
-                us and our partners and also maintaince existing projects.<br/><br/>
-                I worked as a junior Frontend developer. My work included in creating new websites for
-                us and our partners and also maintaince existing projects.
+                I was hire as a junior Frontend Developer / Web-producer, but in a couple of weeks i also
+                get responsibility for make design templates for new sites.
+                </br></br>
+                To be honest I wasn't happy when heard this news, because i never liked this part of my work,
+                even when I worked as a freelancer I often delegated design part to professionals.
+                </br></br>
+                However i really glad for this new experience. Yes, I still don't like make a design for
+                sites and applications, but I worked with a lot of projects on which mastered some base
+                design principles and now I can make design for websites or (maybe) web-applications more
+                useful and handy.
               </p><a class="experience__slide-button button button_transparent button_transparent-accent" href="#">check my CV</a>
             </div>
             <div class="experience__slide">
@@ -268,12 +275,15 @@
                 <source srcset="./assets/images/webp/experience-img_1.webp" type="image/webp"/><img src="./assets/images/experience-img_1.png" alt="photo"/>
               </picture>
               <div class="experience__slide-subtitle">Company name</div>
-              <h3 class="experience__slide-title">Apple</h3>
+              <h3 class="experience__slide-title">Citibank</h3>
               <p class="experience__slide-text">
-                I worked as a junior Frontend developer. My work included in creating new websites for
-                us and our partners and also maintaince existing projects.<br/><br/>
-                I worked as a junior Frontend developer. My work included in creating new websites for
-                us and our partners and also maintaince existing projects.
+                Here I work as a web-master: create new site pages, work with email distributions etc..
+                It`s a really cool place with great conditionals of work and I`m really happy that I can work
+                here, but...
+                </br></br>
+                I want something more, want grow up as a developer: make apps with difficult structure
+                and business logic, which will be helpful for other people. This is my main purpose
+                (and big salary of course :))
               </p><a class="experience__slide-button button button_transparent button_transparent-accent" href="#">check my CV</a>
             </div>
           </div>
